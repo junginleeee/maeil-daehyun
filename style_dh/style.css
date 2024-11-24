@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* 공통 초기화 */
+/* 공통 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 400;
+}
+
+body {
+  background-color: #8b8b8b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.poster.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8b8b8b;
+  overflow: hidden; /* 음표가 화면 밖으로 나가지 않도록 */
+}
+
+.footprints > div {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(225, 225, 225, 0.25);
+}/*# sourceMappingURL=style.css.map */
